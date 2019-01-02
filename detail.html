@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>普天药械</title>
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="wrapper">
+            <div class="login-info">
+                <span class="welcome">您好，欢迎来到普天药械</span>
+            </div>
+            <div class="help">
+                <a href="#">投诉中心</a>
+                <a href="#">帮助中心</a>
+                <a href="#"><img src="img/qq.jpg" alt="qq客服"></a>
+            </div>
+            <div class="order">
+                <a href="login.html" class="login">请登录</a>
+                <a href="register.html" class="register">注册</a>
+                <a href="order.html">我的订单</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-mid">
+        <div class="wrapper">
+            <h1 class="logo">
+                普天药械
+                <a href="#"><img src="img/logo.png" alt="普天药械"></a>
+            </h1>
+            <div class="search">
+                <form class="search-form">
+                    <input type="text" placeholder="请输入药品名称/器械名称/拼音码">
+                    <button>搜索</button>
+                </form>
+                <div class="keywords">
+                    <a href="#">消化管疾病药</a>
+                    <a href="#" class="hot">内分泌腺用药</a>
+                    <a href="#">鼻科类用药</a>
+                </div>
+            </div>
+            <div class="phone">
+                <img src="img/电话.svg" alt="">客服热线
+                <br>
+                <span class="number">400-678-567</span>
+            </div>
+            <div class="cart">
+                <a href="shopping%20cart.html"><img src="img/shoppingCart.png" alt="">购物车<span class="count">0</span>件</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-btm">
+        <div class="left"><h>全部商品分类</h></div>
+        <div class="right">
+            <h class="h3">采购直通</h>
+            <h class="h3">医药</h>
+            <h class="h3">医疗器械</h>
+            <h class="h3">集中采购</h>
+            <h class="h3">期货预售</h>
+            <h class="h3">二手设备</h>
+            <h class="h3">融资租赁</h>
+            <h class="h3">客服中心</h>
+            <div class="buy">
+                <img src="img/采购.png" alt="" class="img1">
+                <a  href="">我是采购商</a>
+                <h>       </h>
+                <img src="img/供应.png" alt="" class="img2">
+                <a  href="">供应商入口</a>
+            </div>
+        </div>
+        <ul class="breadcrumb">
+        <li><a href="medicalIndex.html">首页</a><span>＞</span></li>
+        <li><a href="#">医药</a><span>＞</span></li>
+        <li><a href="#">西药</a><span>＞</span></li>
+        <li>扶他林</li>
+    </ul>
+</header>
+<div id="main">
+    <div class="wrapper">
+        <div class="product-detail">
+            <div class="brief">
+                <div class="left">
+                    <div id="product-images">
+                        <div class="img">
+                            <img id="imgSrc" src="img/detail1.png">
+                        </div>
+                        <div class="thumbs">
+                            <div class="thumbs-wrapper">
+                                <!--<span><</span>-->
+                                <a href="#" class="current"><img src="img/detail1-thumb.png" alt=""></a>
+                                <a href="#"><img src="img/detail2-thumb.png" alt=""></a>
+                                <a href="#"><img src="img/detail1-thumb.png" alt=""></a>
+                                <a href="#"><img src="img/detail2-thumb.png" alt=""></a>
+                                <a href="#" class="last"><img src="img/detail1-thumb.png" alt=""></a>
+                                <!--<span class="">></span>-->
+                            </div>
+                        </div>
+                    </div>
+                    <a class="favourite" href="#"><span class="icon icon-star"></span>收藏药品<span>（人气：12025）</span></a>
+                </div>
+                <div class="mid">
+                    <h2 class="title" id="proName">扶他林  双氯芬酸钠肠溶片</h2>
+                    <div class="price">
+                        <span>价格</span>
+                        <span class="real-price" id="realPrice">￥260.00</span>
+                    </div>
+                    <div class="attrs">
+                        <dl>
+                            <dt>批准文号</dt>
+                            <dd>国药准字H11021640<a href="#">批号查询>></a></dd>
+                            <dt>包装规格</dt>
+                            <dd>25mg*30片</dd>
+                            <dt>最小起订量</dt>
+                            <dd>100盒</dd>
+                            <dt>件装量</dt>
+                            <dd>100盒/件</dd>
+                            <dt>供应价</dt>
+                            <dd>会员可见</dd>
+                            <dt>是否拆零</dt>
+                            <dd>否</dd>
+                        </dl>
+                    </div>
+                    <div class="count">
+                            <h>数量</h>
+                            <ul>
+                                <li class="click" id="minusCount" onclick="addn()">-</li>
+                                <li class="noclick" id="count">1</li>
+                                <li class="click" id="addCount" onclick="deln()">+</li>
+                            </ul>
+                        <h>件（库存1520）</h>
+                    </div>
+                    <div class="btns">
+                        <button class="now" onclick="addOrder()">立即购买</button>
+                        <button class="wait" onclick="addCart()">加入购物车</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="seller">
+                        <h3 class="title">商家信息</h3>
+                        <div class="seller-content">
+                            <h4>诺华制药有限公司</h4>
+                            <p>类&nbsp;&nbsp;型：<span>零售药店</span></p>
+                            <p>联系人：<span>张国立</span></p>
+                            <p>电&nbsp;&nbsp;话：<span>0592-8886866</span></p>
+                            <p class="pbtn">地&nbsp;&nbsp;址：<span>厦门市思明区莲花镇李坡路商银大厦124# 20186号</span></p>
+                        </div>
+                        <div class="btns">
+                            <a href="#">进入店铺</a>
+                            <a href="#">收藏店铺</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="block">
+                    <h4 class="title">同类药品推荐</h4>
+                    <ul>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h4 class="title">历史浏览记录</h4>
+                    <ul>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="img" href="#"><img src="img/tuijian1.png" alt=""></a>
+                            <div class="block-content">
+                                <a href="#">【整肠生】地衣芽孢杆菌活菌胶囊 0.25g*6 s</a>
+                                <div class="price">￥9.30</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="tabs">
+                    <a href="#">商品详情</a>
+                </div>
+                <div class="detail-content">
+                    <ul class="attrs">
+                        <li>药品通用名称：利巴韦林注射液</li>
+                        <li>生产企业：宜昌人福药业有限责任公司</li>
+                        <li>剂型：注射液</li>
+                        <li>卖方会员：重庆九州通医药有限公司 </li>
+                        <li>包装规格：2mL:250mg*10瓶</li>
+                        <li>计价单位：盒</li>
+                    </ul>
+                    <div class="imgs">
+                        <img src="img/detail-desc.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-top">
+        <div class="wrapper">
+            <div class="block">
+                <div class="title"><span class="star"></span>新手入门</div>
+                <ul>
+                    <li><a href="#">会员注册</a></li>
+                    <li><a href="#">密码找回</a></li>
+                    <li><a href="#">资料下载</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="flag"></span>买方帮助</div>
+                <ul>
+                    <li><a href="#">商品查找</a></li>
+                    <li><a href="#">下单流程</a></li>
+                    <li><a href="#">货款支付</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="chart"></span>卖方帮助</div>
+                <ul>
+                    <li><a href="#">交易信息发布</a></li>
+                    <li><a href="#">订单受理</a></li>
+                    <li><a href="#">货款结算</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="bag"></span>交易管理</div>
+                <ul>
+                    <li><a href="#">会员入住规则</a></li>
+                    <li><a href="#">在线交易规则</a></li>
+                    <li><a href="#">在线结算规则</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="lock"></span>网站信息</div>
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">法律声明</a></li>
+                    <li><a href="#">网站地图</a></li>
+                </ul>
+            </div>
+            <div class="block contact">
+                <p><span class="phone"></span>客服电话：<span class="num">4000-678-567</span></p>
+                <p><span class="mail"></span>服务邮箱：<span class="email">service@ptyxjy.cn</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-btm">
+        <div class="wrapper">
+            <p>Copyright  2014 福建莆田电商投资管理股份有限公司  闽ICP备14018699号-1   ©版权所有</p>
+            <p><a href="#">互联网药品信息服务资格证书 （闽）-非经营性-2014-0018</a><a href="#">增值电信业务经营许可证 闽B1-20140006</a></p>
+            <p>莆田药械交易网由福建莆田电商投资管理股份有限公司独家运营</p>
+            <p>公司地址：福建省莆田市荔城区黄石镇七境村1#楼108室</p>
+        </div>
+    </div>
+</footer>
+<script src="js/detail.js"></script>
+</body>
+</html>

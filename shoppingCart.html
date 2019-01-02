@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>普天药械</title>
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/shoppingCart.css">
+    <link rel="stylesheet" href="css/searchInput.css">
+
+</head>
+<body>
+<div class="header">
+    <div class="tnt-nav">
+        <div class="wrapper">
+            <div class="tnn-left">
+                <a href="#" class="tnnl-word">网站地图</a>
+                <a href="#" class="tnnl-word">设为首页</a>
+                <a href="#" class="tnnl-word2">收藏本站</a>
+            </div>
+            <div class="tnn-right">
+                <a href="#" id="qqcontact"><img src="img/qq.jpg" alt=""></a>
+            </div>
+            <div class="tnn-middle">
+                <a href="medicalIndex.html" class="tnnl-word">你好</a>
+                <a href="login.html" class="tnnl-word2">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="tnm-nav">
+        <div class="wrapper">
+            <div class="tn-logo">
+                <a href="medicalIndex.html"><img src="img/logo (1).png" alt=""></a>
+            </div>
+            <div class="tn-midSearch">
+                <input type="text" placeholder="请输入药品名称/器械名称/拼音码">
+                <button>搜索</button>
+                <div class="keywords">
+                    <a href="#" class="sameColor">消化管疾病药</a>
+                    <a href="#" id="difColor">内分泌腺用药</a>
+                    <a href="#" class="sameColor">鼻科类用药</a>
+                </div>
+            </div>
+            <div class="tn-right">
+                <div class="tnr-call">
+                    <div class="tnrc-way">
+                        <span class="icon icon-phone"></span>客服热线
+                    </div>
+                    <div class="tnrc-way">4000-678-567</div>
+                </div>
+                <!--<div class="tnr-shop">-->
+                    <!--&lt;!&ndash;<button class="tnrs-a" onclick="add()">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="icon icon-car"></span>购物车<span id="special">0</span>件&ndash;&gt;-->
+                    <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+    <div class="tnd-nav">
+        <div class="wrapper">
+            <div class="tndn-nav">
+                <div class="tndn-left">
+                    <div class="tndnl-title">全部商品分类</div>
+                </div>
+                <div class="tndn-middle">
+                    <div class="tndnn-nav">
+                        <a href="#">采购直通</a>
+                        <a href="#">医药</a>
+                        <a href="#">医疗器械</a>
+                        <a href="#">竞价采购</a>
+                        <a href="#">客服中心</a>
+                    </div>
+                </div>
+                <div class="tndn-right">
+                    <div class="entrance">
+                        <div class="e-box">
+                            <span class="icon icon-buy"></span>
+                            <a class="entrance-left" href="#">我是采购商</a>
+                        </div>
+                    </div>
+                    <div class="entrance">
+                        <div class="e-box">
+                            <span class="icon icon-supply"></span>
+                            <a class="entrance-right" href="#">供应商入口</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="center">
+    <div class="wrapper">
+        <div class="confirm-pro">
+            <div class="proDetail">
+                <table id="shopping">
+                    <thead>
+                    <tr>
+                        <th><input id="allCheckBox" type="checkbox" value="" onclick="selectAll()" onmouseout="productCount()">全选</th>
+                        <th>店铺宝贝</th>
+                        <th>商品属性</th>
+                        <th>单价</th>
+                        <th>数量</th>
+                        <th>小计</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="shoppingContent">
+
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td  colspan="3" class="numDelete">
+                            共选中<span id="proNum" class="proNum">0</span>件商品
+                            <a class="deleteA" href="javascript:deleteSelectRow()">
+                                <button class="deleteBtn">删除</button>
+                            </a>
+                        </td>
+                        <td colspan="5" class="shopend">商品总价（不含运费）：<label id="total" class="yellow"></label> 元<br />
+                            <input name=" " type="button" value="提交" onclick="skip()"/></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="star"></span>新手入门
+                </div>
+                <ul>
+                    <li><a href="#">会员注册</a></li>
+                    <li><a href="#">密码找回</a></li>
+                    <li><a href="#">资料下载</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="flag"></span>买方帮助
+                </div>
+                <ul>
+                    <li><a href="#">商品查找</a></li>
+                    <li><a href="#">下单流程</a></li>
+                    <li><a href="#">货款支付</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="round"></span>卖方帮助
+                </div>
+                <ul>
+                    <li><a href="#">交易信息发布</a></li>
+                    <li><a href="#">合同受理</a></li>
+                    <li><a href="#">货款结算</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="case"></span>交易管理
+                </div>
+                <ul>
+                    <li><a href="#">会员入住规则</a></li>
+                    <li><a href="#">在线交易规则</a></li>
+                    <li><a href="#">在线结算规则</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="lock"></span>网站信息
+                </div>
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">法律声明</a></li>
+                    <li><a href="#">网站电话</a></li>
+                </ul>
+            </div>
+            <div class="f-listNav">
+                <div class="f-tele">
+                    <span class="phone"></span>客服电话：<span class="call">4000-678-567</span>
+                </div>
+                <div class="f-mail">
+                    <span class="mail"></span>服务邮箱：service@ptyxjy.cn
+                </div>
+            </div>
+            <div class="f-copyright">
+                <p>Copyright  2014 福建莆田电商投资管理股份有限公司  闽ICP备14018699号-1   ©版权所有</p>
+                <p>
+                    <a href="#">互联网药品信息服务资格证书 （闽）-非经营性-2014-0018</a>
+                    <a href="#">增值电信业务经营许可证 闽B1-20140006</a>
+                </p>
+                <p>普天药械交易网由福建莆田电商投资管理股份有限公司独家运营</p>
+                <p>公司地址：福建省莆田市荔城区黄石镇七境村1#楼108室</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/jquery.suggestion.js"></script>
+<script src="js/searchInput.js"></script>
+<script type="text/javascript" src="js/changeNum.js"></script>
+<script type="text/javascript" src="js/ProExtract.js"></script>
+<script type="text/javascript" src="js/changeProduct.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.suggestion{
+    z-index:100;
+    background:white;
+}
+.suggestion ul{
+    position: relative;
+    border:1px solid #ebebeb;
+    list-style: none;
+}
+.suggestion li{
+    padding:0 10px;
+    line-height: 24px;
+}
+.suggestion .active{
+    background: #ccc;
+}

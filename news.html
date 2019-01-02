@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>普天药械</title>
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="wrapper">
+            <div class="login-info">
+                <span class="welcome">您好，欢迎来到普天药械</span>
+            </div>
+            <div class="help">
+                <a href="#">投诉中心</a>
+                <a href="#">帮助中心</a>
+                <a href="#"><img src="img/qq.jpg" alt="qq客服"></a>
+            </div>
+            <div class="order">
+                <a href="#" class="login">你好</a>
+                <a href="medicalIndex.html" class="register">退出</a>
+                <a href="#">我的订单</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-mid">
+        <div class="wrapper">
+            <h1 class="logo">
+                普天药械
+                <a href="#"><img src="img/logo.png" alt="普天药械"></a>
+            </h1>
+            <div class="search">
+                <form class="search-form">
+                    <input type="text" placeholder="请输入药品名称/器械名称/拼音码" >
+                    <button onclick="skip()">搜索</button>
+                </form>
+                <div class="keywords">
+                    <a href="#">消化管疾病药</a>
+                    <a href="#" class="hot">内分泌腺用药</a>
+                    <a href="#">鼻科类用药</a>
+                </div>
+            </div>
+            <div class="phone">
+                <img src="img/电话.svg" alt="">客服热线
+                <br>
+                <span class="number">400-678-567</span>
+            </div>
+            <div class="cart">
+                <a href="#"><img src="img/购物车.png" alt="">购物车<span class="count">0</span>件</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-btm">
+        <div class="left"><h>全部商品分类</h>
+            <div class="down">
+                <div class="downtop">
+                    <div class="dttitle"><a href="">中药</a></div>
+                    <div class="dtcontent">
+                        <div class="dtleft"><a href="">中成药</a></div>
+                        <div class="dtright"><a href="">中药饮片</a></div>
+                    </div>
+                    <div class="drtop">
+                        <ul class="menu">
+                            <li><a href="">肝病科</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">乙肝</a></li>
+                                    <li><a href="#">肝纤维化肝硬化</a></li>
+                                    <li><a href="#">胆结石</a></li>
+                                    <li><a href="#">脂肪肝</a></li>
+                                    <li><a href="#">保肝护肝</a></li>
+                                    <li><a href="#">胆道疾病</a></li>
+                                </ul></li>
+                            <li><a href="">内分泌</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">糖尿病</a></li>
+                                    <li><a href="#">甲状腺疾病</a></li>
+                                </ul></li>
+                            <li><a href="">滋补调养</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">补血补气</a></li>
+                                    <li><a href="#">减肥瘦身</a></li>
+                                    <li><a href="#">安神助眠</a></li>
+                                    <li><a href="#">增强抵抗力</a></li>
+                                    <li><a href="#">补肾</a></li>
+                                    <li><a href="#">免疫调节</a></li>
+                                </ul></li>
+                            <li><a href="">男科疾病</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">性功能障碍</a></li>
+                                    <li><a href="#">男性不育症</a></li>
+                                    <li><a href="#">前列腺炎</a></li>
+                                    <li><a href="#">肾病</a></li>
+                                    <li><a href="#">泌尿系统疾病</a></li>
+                                </ul></li>
+                            <li><a href="">呼吸道疾病</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">感冒发烧</a></li>
+                                    <li><a href="#">咳嗽</a></li>
+                                    <li><a href="#">上火</a></li>
+                                    <li><a href="#">小儿感冒</a></li>
+                                    <li><a href="#">哮喘</a></li>
+                                    <li><a href="#">支气管炎</a></li>
+                                    <li><a href="#">慢阻肺</a></li>
+                                    <li><a href="#">慢性支气管炎</a></li>
+                                </ul></li>
+                            <li><a href="">妇科疾病</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">妇科炎症</a></li>
+                                    <li><a href="#">月经不调</a></li>
+                                    <li><a href="#">乳腺炎</a></li>
+                                    <li><a href="#">避孕</a></li>
+                                    <li><a href="#">孕产期</a></li>
+                                    <li><a href="#">更年期</a></li>
+                                </ul></li>
+                            <li><a href="">消化系统疾病
+                                <ul class="sub-menu">
+                                    <li><a href="#">胃炎</a></li>
+                                    <li><a href="#">便秘</a></li>
+                                    <li><a href="#">结肠炎</a></li>
+                                    <li><a href="#">消化不良</a></li>
+                                    <li><a href="#">胃肠溃疡</a></li>
+                                    <li><a href="#">腹泻</a></li>
+                                    <li><a href="#">痔疮</a></li>
+                                    <li><a href="#">蛔虫</a></li>
+                                    <li><a href="#">小儿肠胃病</a></li>
+                                    <li><a href="#">营养剂</a></li>
+                                </ul></a>
+                            </li>
+                            <li><a href="">风湿骨痛</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">痛风</a></li>
+                                    <li><a href="#">类风湿</a></li>
+                                    <li><a href="#">疼痛用药</a></li>
+                                    <li><a href="#">关节炎</a></li>
+                                    <li><a href="#">骨质增生</a></li>
+                                    <li><a href="#">腰椎病</a></li>
+                                    <li><a href="#">颈椎病</a></li>
+                                    <li><a href="#">骨质疏松</a></li>
+                                    <li><a href="#">外用贴膏</a></li>
+                                    <li><a href="#">跌打损伤</a></li>
+                                    <li><a href="#">器官移植</a></li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="downbottom">
+                    <div class="dbtitle"><a href="">医疗器械</a></div>
+                    <div class="dbcontent">
+                        <div class="dbleft">
+                            <a href="">基础外科手术器械</a>
+                            <a href="">神经外科脑内用刀</a>
+                            <a href="">母婴检测仪</a>
+                            <a href="">呼吸道用具</a>
+                        </div>
+                        <div class="dbright">
+                            <a href="">显微外科用刀</a>
+                            <a href="">检测器材</a>
+                            <a href="">康复理疗仪</a>
+                            <a href="">辅助理疗</a>
+                        </div>
+                    </div>
+                    <div class="drbottom">
+                        <ul class="menu">
+                                <li><a href="#">五官科疾病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">眼部炎症</a></li>
+                                        <li><a href="#">眼干眼涩</a></li>
+                                        <li><a href="#">白内障</a></li>
+                                        <li><a href="#">青光眼</a></li>
+                                        <li><a href="#">耳聋耳鸣</a></li>
+                                        <li><a href="#">鼻炎</a></li>
+                                        <li><a href="#">咽喉炎</a></li>
+                                        <li><a href="#">口腔溃疡</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">心脑血管</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">高血压</a></li>
+                                        <li><a href="#">高血脂</a></li>
+                                        <li><a href="#">冠心病</a></li>
+                                        <li><a href="#">心绞痛</a></li>
+                                        <li><a href="#">静脉曲张</a></li>
+                                        <li><a href="#">动脉硬化</a></li>
+                                        <li><a href="#">心肌炎</a></li>
+                                        <li><a href="#">心律失常</a></li>
+                                        <li><a href="#">心力衰竭</a></li>
+                                        <li><a href="#">脑血管病</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">皮肤病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">皮炎癣症</a></li>
+                                        <li><a href="#">白癜风</a></li>
+                                        <li><a href="#">银屑病（牛皮癣）</a></li>
+                                        <li><a href="#">痤疮（青春痘）</a></li>
+                                        <li><a href="#">疤痕</a></li>
+                                        <li><a href="#">脱发</a></li>
+                                        <li><a href="#">疱疹</a></li>
+                                        <li><a href="#">黄褐斑</a></li>
+                                        <li><a href="#">系统性红斑狼疮</a></li>
+                                        <li><a href="#">尖锐湿疣</a></li>
+                                        <li><a href="#">艾滋病</a></li>
+                                        <li><a href="#">烧烫创伤</a></li>
+                                        <li><a href="#">蚊虫叮咬</a></li>
+                                        <li><a href="#">过敏</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">神经系统</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">中风</a></li>
+                                        <li><a href="#">面瘫</a></li>
+                                        <li><a href="#">癫痫</a></li>
+                                        <li><a href="#">失眠</a></li>
+                                        <li><a href="#">戒烟</a></li>
+                                        <li><a href="#">帕金森</a></li>
+                                        <li><a href="#">老年性痴呆</a></li>
+                                        <li><a href="#">抑郁症</a></li>
+                                        <li><a href="#">多动症</a></li>
+                                        <li><a href="#">焦虑症</a></li>
+                                        <li><a href="#">偏头痛</a></li>
+                                        <li><a href="#">神经损伤</a></li>
+                                        <li><a href="#">神经性疼痛</a></li>
+                                        <li><a href="#">精神分裂症</a></li>
+                                        <li><a href="#">运动神经元病</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">肝病科</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">乙肝</a></li>
+                                        <li><a href="#">肝纤维化肝硬化</a></li>
+                                        <li><a href="#">胆结石</a></li>
+                                        <li><a href="#">脂肪肝</a></li>
+                                        <li><a href="#">保肝护肝</a></li>
+                                        <li><a href="#">胆道疾病</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">内分泌</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">糖尿病</a></li>
+                                        <li><a href="#">甲状腺疾病</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">滋补调养</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">补血补气</a></li>
+                                        <li><a href="#">减肥瘦身</a></li>
+                                        <li><a href="#">安神助眠</a></li>
+                                        <li><a href="#">增强抵抗力</a></li>
+                                        <li><a href="#">补肾</a></li>
+                                        <li><a href="#">免疫调节</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">男科疾病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">性功能障碍</a></li>
+                                        <li><a href="#">男性不育症</a></li>
+                                        <li><a href="#">前列腺炎</a></li>
+                                        <li><a href="#">肾病</a></li>
+                                        <li><a href="#">泌尿系统疾病</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">呼吸道疾病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">感冒发烧</a></li>
+                                        <li><a href="#">咳嗽</a></li>
+                                        <li><a href="#">上火</a></li>
+                                        <li><a href="#">小儿感冒</a></li>
+                                        <li><a href="#">哮喘</a></li>
+                                        <li><a href="#">支气管炎</a></li>
+                                        <li><a href="#">慢阻肺</a></li>
+                                        <li><a href="#">慢性支气管炎</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">妇科疾病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">妇科炎症</a></li>
+                                        <li><a href="#">月经不调</a></li>
+                                        <li><a href="#">乳腺炎</a></li>
+                                        <li><a href="#">避孕</a></li>
+                                        <li><a href="#">孕产期</a></li>
+                                        <li><a href="#">更年期</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">消化系统疾病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">胃炎</a></li>
+                                        <li><a href="#">便秘</a></li>
+                                        <li><a href="#">结肠炎</a></li>
+                                        <li><a href="#">消化不良</a></li>
+                                        <li><a href="#">胃肠溃疡</a></li>
+                                        <li><a href="#">腹泻</a></li>
+                                        <li><a href="#">痔疮</a></li>
+                                        <li><a href="#">蛔虫</a></li>
+                                        <li><a href="#">小儿肠胃病</a></li>
+                                        <li><a href="#">营养剂</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">风湿骨病</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">痛风</a></li>
+                                        <li><a href="#">类风湿</a></li>
+                                        <li><a href="#">疼痛用药</a></li>
+                                        <li><a href="#">关节炎</a></li>
+                                        <li><a href="#">骨质增生</a></li>
+                                        <li><a href="#">腰椎病</a></li>
+                                        <li><a href="#">颈椎病</a></li>
+                                        <li><a href="#">骨质疏松</a></li>
+                                        <li><a href="#">外用贴膏</a></li>
+                                        <li><a href="#">跌打损伤</a></li>
+                                        <li><a href="#">器官移植</a></li>
+                                    </ul>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="downright">
+
+            </div>
+        </div>
+        <div class="right">
+        <h class="h3">采购直通</h>
+        <h class="h3">医药</h>
+        <h class="h3">医疗器械</h>
+        <h class="h3">集中采购</h>
+        <h class="h3">期货预售</h>
+        <h class="h3">二手设备</h>
+        <h class="h3">融资租赁</h>
+        <h class="h3">客服中心</h>
+        <div class="buy">
+            <img src="img/采购.png" alt="" class="img1">
+            <a  href="">我是采购商</a>
+            <h>       </h>
+            <img src="img/供应.png" alt="" class="img2">
+            <a  href="">供应商入口</a>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="cleft">
+        <div class="block">
+            <div class="block-title">医改动态</div>
+            <ul>
+                <li><a href="#">创新机制体制构建公共平台,让药品在..</a></li>
+                <li><a href="#">普天药械将打造千亿级医药支柱产业</a></li>
+                <li><a href="#">提速赶超做大做强医药产业</a></li>
+                <li><a href="#">创新机制体制构建公共平台,让药品在..</a></li>
+                <li><a href="#">普天药械将打造千亿级医药支柱产业</a></li>
+                <li><a href="#">提速赶超做大做强医药产业</a></li>
+            </ul>
+        </div>
+        <div class="block" id="iblock">
+            <div class="block-title">医药政策</div>
+            <ul>
+                <li><a href="#">创新机制体制构建公共平台,让药品在..</a></li>
+                <li><a href="#">普天药械将打造千亿级医药支柱产业</a></li>
+                <li><a href="#">提速赶超做大做强医药产业</a></li>
+                <li><a href="#">创新机制体制构建公共平台,让药品在..</a></li>
+                <li><a href="#">普天药械将打造千亿级医药支柱产业</a></li>
+                <li><a href="#">提速赶超做大做强医药产业</a></li>
+            </ul>
+        </div>
+        <div class="block" id="iblock">
+            <div class="block-title">普天资讯</div>
+            <ul>
+                <li><a href="#">创新机制体制构建公共平台,让药品在..</a></li>
+                <li><a href="#">普天药械将打造千亿级医药支柱产业</a></li>
+                <li><a href="#">提速赶超做大做强医药产业</a></li>
+                <li><a href="#">创新机制体制构建公共平台,让药品在..</a></li>
+                <li><a href="#">普天药械将打造千亿级医药支柱产业</a></li>
+                <li><a href="#">提速赶超做大做强医药产业</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cright">
+        <div class="breadcrumb">
+            当前位置：
+            <a href="#">首页</a>
+            <span>＞</span>
+            <h>医改动态</h>
+        </div>
+        <ul class="news-list">
+            <li><a href="#">人社部医保司颜清辉副司长到药交所考人社部医保司颜清辉副司长到药交所考人社部医保司颜清辉副司长到药交所考察</a><span>2015-01-16 </span></li>
+            <li><a href="#">重庆市政协副主席张玲一行到药交所考察</a><span>2015-01-04 </span></li>
+            <li><a href="#">国家发改委价格司许昆林司长到药交所考察</a><span>2014-12-12 </span></li>
+            <li><a href="#">重庆市委常委、市纪委书记徐松南到药交所考察</a><span>2014-12-10 </span></li>
+            <li><a href="#">重庆药交所承担的国家“十二五”科技支撑计划项目 两大课题正式通过科...</a><span>2014-10-15 </span></li>
+            <li><a href="#">重庆市卫计委书记盛娅农到药交所考察</a><span>2014-09-03 </span></li>
+            <li><a href="#">医药公信网成功举办药店终端供应商招商会</a><span>2014-08-20 </span></li>
+            <li><a href="#">北京市卫计委到重庆药交所调研</a><span>2014-08-11 </span></li>
+            <li><a href="#">福建三明市市委常委詹积富一行 到重庆药交所调研</a><span>2014-08-11 </span></li>
+            <li><a href="#">重庆市国资委书记胡际权到药交所视察</a><span>2014-07-16 </span></li>
+            <li><a href="#">重庆市政协副主席吴家农一行到药交所调研</a><span>2014-07-16 </span></li>
+            <li><a href="#">国家卫计委药政司率部分省市药品采购负责人到重庆药交所考察交流</a><span>2014-06-23 </span></li>
+            <li><a href="#">人社部医保司颜清辉副司长到药交所考察</a><span>2015-01-16 </span></li>
+            <li><a href="#">重庆市政协副主席张玲一行到药交所考察</a><span>2015-01-04 </span></li>
+            <li><a href="#">国家发改委价格司许昆林司长到药交所考察</a><span>2014-12-12 </span></li>
+            <li><a href="#">重庆市委常委、市纪委书记徐松南到药交所考察</a><span>2014-12-10 </span></li>
+            <li><a href="#">重庆药交所承担的国家“十二五”科技支撑计划项目 两大课题正式通过科...</a><span>2014-10-15 </span></li>
+            <li><a href="#">重庆市卫计委书记盛娅农到药交所考察</a><span>2014-09-03 </span></li>
+            <li><a href="#">医药公信网成功举办药店终端供应商招商会</a><span>2014-08-20 </span></li>
+            <li><a href="#">北京市卫计委到重庆药交所调研</a><span>2014-08-11 </span></li>
+            <li><a href="#">福建三明市市委常委詹积富一行 到重庆药交所调研</a><span>2014-08-11 </span></li>
+        </ul>
+        <ul class="page">
+            <li class="prev"><a href="#" class="disabled">上一页</a></li>
+            <li><a href="#" class="current">1</a></li>
+            <li class="num"><a href="#">2</a></li>
+            <li class="num"><a href="#">3</a></li>
+            <li class="num"><a href="#">下一页</a></li>
+        </ul>
+        <div class="news-detail">
+            <h2 class="news-title">普天药械交易网规则</h2>
+            <div class="metas">
+                <span>2014-5-5 14:59:59</span>
+                <span>源自xxxxoooo网</span>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-top">
+        <div class="wrapper">
+            <div class="block">
+                <div class="title"><span class="star"></span>新手入门</div>
+                <ul>
+                    <li><a href="#">会员注册</a></li>
+                    <li><a href="#">密码找回</a></li>
+                    <li><a href="#">资料下载</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="flag"></span>买方帮助</div>
+                <ul>
+                    <li><a href="#">商品查找</a></li>
+                    <li><a href="#">下单流程</a></li>
+                    <li><a href="#">货款支付</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="chart"></span>卖方帮助</div>
+                <ul>
+                    <li><a href="#">交易信息发布</a></li>
+                    <li><a href="#">订单受理</a></li>
+                    <li><a href="#">货款结算</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="bag"></span>交易管理</div>
+                <ul>
+                    <li><a href="#">会员入住规则</a></li>
+                    <li><a href="#">在线交易规则</a></li>
+                    <li><a href="#">在线结算规则</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <div class="title"><span class="lock"></span>网站信息</div>
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">法律声明</a></li>
+                    <li><a href="#">网站地图</a></li>
+                </ul>
+            </div>
+            <div class="block contact">
+                <p><span class="phone"></span>客服电话：<span class="num">4000-678-567</span></p>
+                <p><span class="mail"></span>服务邮箱：<span class="email">service@ptyxjy.cn</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-btm">
+        <div class="wrapper">
+            <p>Copyright  2014 福建莆田电商投资管理股份有限公司  闽ICP备14018699号-1   ©版权所有</p>
+            <p><a href="#">互联网药品信息服务资格证书 （闽）-非经营性-2014-0018</a><a href="#">增值电信业务经营许可证 闽B1-20140006</a></p>
+            <p>莆田药械交易网由福建莆田电商投资管理股份有限公司独家运营</p>
+            <p>公司地址：福建省莆田市荔城区黄石镇七境村1#楼108室</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript">
+    function skip(){
+        window.open("search.html");
+    }
+</script>
+</html>

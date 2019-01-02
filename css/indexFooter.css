@@ -1,0 +1,169 @@
+.footer{
+    height: 320px;
+    margin-top: 60px;
+    border-top: 4px solid #0c9965;
+}
+.f-list{
+    width: 165px;
+    float: left;
+    padding: 20px 10px;
+}
+.f-title h3{
+    font-weight: 400;
+    font-size: 16px;
+}
+.f-list ul{
+    margin-top: 15px;
+    padding-left: 42px;
+    box-sizing: border-box;
+}
+.f-list ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #000000;
+}
+.f-list ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.f-list ul li a:hover{
+    text-decoration: underline;
+}
+.f-listNav{
+    height: 162px;
+    margin-top: 20px;
+}
+.f-tele p{
+    font-size: 16px;
+    color: #000;
+    margin: 0 0 5px;
+}
+.f-tele p span{
+    font-weight: bold;
+}
+.f-copyright{
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    padding: 25px 0;
+}
+.f-copyright p a{
+    text-decoration: none;
+    color: #0c9965;
+    margin-right: 20px;
+}
+#fixedNav{
+    position: absolute;
+    display: block;
+    top: 2495.2px;
+    right: 70px;
+    font-size: 12px;
+    text-align: center;
+}
+#fixedNav span:before {
+    content: "";
+    border: 10px solid #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    width: 0;
+    height: 0;
+    display: inline-block;
+}
+#fixedNav span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+    width: 30px;
+    height: 46px;
+}
+#fixedNav a{
+    display: block;
+    width: 60px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #999;
+    border-top: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+}
+#fixedNav a:hover{
+    background: #fbaf3c;
+}
+#fixedNav a:first-child {
+    border-top: none;
+}
+#fixedNav .top {
+    background-color: #fbaf3c;
+}
+.f-title{
+    line-height: 35px;
+}
+.star{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/iconfont-star.png) no-repeat;
+}
+.flag{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/iconfont-flag.png) no-repeat;
+}
+.round{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/iconfont-chart.png) no-repeat;
+}
+.case{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/iconfont-bag.png) no-repeat;
+}
+.lock{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/iconfont-lock.png) no-repeat;
+}
+.phone{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../img/iconfont-phone.png) no-repeat;
+}
+.mail{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../img/iconfont-mail.png) no-repeat;
+}
+.f-tele{
+    padding-top:5px;
+}
+.f-mail{
+    margin:10px;
+}
+.f-tele .call{
+    font-weight: bold;
+}

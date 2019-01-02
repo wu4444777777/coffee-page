@@ -1,0 +1,207 @@
+header{
+    padding: 60px 0 50px;
+    width: 890px;
+    margin: 0 auto;
+}
+.header-left{
+    float: right;
+    margin-right: 18px;
+    margin-top: -88px;
+    display: inline;
+}
+.header-left a img{
+    margin-top: 16px;
+    margin-right: 7px;
+}
+.header-right{
+    color: #0c9965;
+    font-size: 18px;
+    line-height: 68px;
+    float: right;
+
+}
+.center{
+    position: relative;
+    width: 890px;
+    margin: 0 auto;
+    height: 383px;
+    box-shadow: 0 0 12px #ccc;
+}
+.center-login{
+    position: absolute;
+    left: 64px;
+    top: 20px;
+    width: 287px;
+    height: 383px;
+    box-sizing: border-box;
+}
+.center-login-left{
+    width: 287px;
+    height: 270px;
+    margin-top: 30px;
+}
+.center-login-left2{
+    width: 287px
+}
+.center-login-left3{
+    position: relative;
+}
+.center-login-left a{
+    display: inline;
+}
+.center-login-left p{
+    font-size: 24px;
+    display: inline;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    color: #575757;
+}
+.center-login-right{
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    width: 374px;
+    height: 342px;
+}
+.center-login-right img{
+    height: 339px;
+}
+.footer-inner{
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 16px;
+}
+.footer-inner a{
+    color: #009334;
+    text-decoration: transparent;
+}
+.footer-inner p a:hover{
+    text-decoration:underline ;
+}
+
+.footer-top{
+    height: 60px;
+    width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid #e2e2e2;
+}
+.center-login-left-center input{
+    width: 287px;
+    height: 36px;
+}
+.center-login-left-center2{
+    color: gray;
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.center-login-left-center3{
+    width: 287px;
+    height: 35px;
+    background-color: #0ca850;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 9px;
+}
+.center-login-left-center4{
+    color: #bfbfbf;
+    font-size:12px;
+    text-decoration: transparent;
+}
+.center-login-left-center5{
+    color: #fbae3a;
+    font-size: 12px;
+    float: right;
+    text-decoration: transparent;
+}
+.center-login-left-center1:hover{
+    border-color: #0ca850;
+}
+.center-login-left-center3:hover{
+    background-color: #009334;
+}
+.center-login-left-center4:hover{
+    text-decoration:underline ;
+}
+
+.center-login-left-center5:hover{
+    text-decoration:underline ;
+}
+.center-login-left-center1 option:hover{
+    background-color: #dbdbdb;
+    border-color: transparent;
+}
+
+.center-login-left-center input:hover{
+    border-color: #0ca850;
+}
+.center-login-left-center input:visited{
+    border-color: #0ca850;
+}
+.center-login-left .select-box{
+    width: 100%;
+    height: 38px;
+    position: relative;
+    margin-top: 20px;
+}
+.center-login-left  .select-box select{
+    height: 38px;
+    width: 100%;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    line-height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 6px;
+}
+.center-login-left .select-box::after{
+    content: "";
+    width: 18px;
+    height: 36px;
+    background: url(../img/6.svg) no-repeat center;
+    position: absolute;
+    right: 0px;
+    top: 4%;
+    pointer-events: none;
+    border: 1px solid #bababa;
+    border-bottom: 0;
+    border-top: 0
+}
+#code-msg {
+    height: 10px;
+    width: 146px;
+    /*display: block;*/
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+}
+#pwd-msg{
+    height: 10px;
+    width: 146px;
+    /*display: block;*/
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+}
+#btn-msg{
+    height: 33px;
+    width: 240px;
+    right: -197px;
+    top: 193px;
+    font-size: 12px;
+    color: red;
+}

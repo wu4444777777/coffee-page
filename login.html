@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+   <header>
+     <h1><a href="medicalIndex.html"><img src="img/1.png" alt=""></a> </h1>
+     <div class="header-left">
+        <a href="#"><img src="img/2.svg" alt="">
+        </a>
+        <div class="header-right">
+        <span>客服热线</span>
+        <span>4000-678-567</span>
+        </div>
+    </div>
+   </header>
+    <div class="center">
+      <div class="center-login">
+       <div class="center-login-left">
+        <div class="center-login-left3">
+           <a href=""><img src="img/3.png" alt=""></a>
+           <p>用户登录</p>
+       </div>
+        <div class="select-box">
+            <select class="center-login-left-center1" name="" id="">
+                <option value="buyer">&nbsp采购商</option>
+                <option value="seller">&nbsp供应商</option>
+            </select>
+        </div>
+            <div class="center-login-left-center">
+        <div >
+            <input onpaste="return false" id="user" class="center-login-left-center2" type="text" placeholder="&nbsp;&nbsp;用户名">
+            <span id="code-msg" style="display: none;"></span>
+        </div>
+        <div >
+            <input id="pass" class="center-login-left-center2" type="password" placeholder="&nbsp;&nbsp;密码">
+            <span onmouseover="clear()" id="pwd-msg" style="display: none;"></span>
+        </div>
+        <div>
+            <button class="center-login-left-center3" id="btn" onclick="check()">登陆</button>
+            <span id="btn-msg"></span>
+        </div>
+        </div>
+        </div>
+         <div class="center-login-left2">
+        <a class="center-login-left-center4" href="#" id="forget">忘记密码&nbsp？</a>
+        <a class="center-login-left-center5" href="register.html">新用户注册</a>
+         </div>
+       </div>
+          <div class="center-login-right">
+              <img src="img/4.jpg" alt="">
+          </div>
+       </div>
+    </div>
+
+<footer>
+    <div class="footer-top">
+
+    </div>
+    <div class="footer-inner">
+        <p>Copyright  2014 福建莆田电商投资管理股份有限公司  闽ICP备14018699号-1   ©版权所有</p>
+        <p>
+            <a href="">互联网药品信息服务资格证书（闽）-非经营性-2014-0018&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+            <a href="">增值电信业务经营许可证 闽B1-20140006</a>
+        </p>
+        <p>莆田药械交易网由福建莆田电商投资管理股份有限公司独家运营</p>
+        <p>公司地址：福建省莆田市荔城区黄石镇七境村1#楼108室</p>
+    </div>
+</footer>
+
+   <script src="js/loginCheck.js"></script>
+</body>
+</html>

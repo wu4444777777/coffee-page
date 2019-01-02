@@ -1,0 +1,557 @@
+.list-nav{
+    display: flex;
+}
+.ln-left{
+    flex: 1;
+    width: 111px;
+    box-shadow: 2px 0 2px #bcbcbc;
+    border-bottom:2px solid #0c9965;
+}
+.ln-left{
+    position: relative;
+ }
+.c-title{
+    padding:0 10px;
+    margin-bottom:1px;
+}
+.boxBorder{
+    border:1px solid #0c9965;
+}
+.westMedic ul{
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 1px;
+    width: 740px;
+    height: 776px;
+    z-index: 100;
+    background: white;
+    border: 1px solid #0c9965;
+     border-left: none;
+    list-style: none;
+}
+.westMedic ul li{
+    display: block;
+    width: 94%;
+    padding: 15px 0 0 0;
+    margin-left: 25px;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.firstA{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    float: left;
+    display: block;
+}
+.secondA{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-left: 1px solid #ddd;
+    display: inline-block;
+}
+.medic{
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 1px;
+    width: 740px;
+    height: 653px;
+    z-index: 100;
+    background: white;
+    border: 1px solid #0c9965;
+    border-left: none;
+    list-style: none;
+}
+.medic li{
+    display: block;
+    width: 94%;
+    padding: 15px 0 0 0;
+    margin-left: 25px;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.medic li a:hover{
+    text-decoration: underline;
+}
+.westMedic:hover .medic{
+    display: block;
+}
+.westMedic:hover{
+    border-right: none;
+}
+.westMedic:hover a{
+    background:none;
+}
+.chnMedic:hover .medic{
+    display: block;
+}
+.chnMedic:hover{
+    border-right: none;
+}
+.chnMedic:hover a{
+    background: none;
+}
+.medUse:hover .medic{
+    display: block;
+}
+.medUse:hover{
+    border-right:none;
+}
+.medUse:hover a{
+    background: none;
+}
+.medEquiv:hover .medic{
+    display: block;
+}
+.medEquiv:hover{
+    border-right:none;
+}
+.medEquiv:hover a{
+    background: none;
+}
+.ct-a{
+    padding: 12px 20px 15px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    display: block;
+    font-family: "Microsoft YaHei",SimSun;
+    background-color: white;
+    background: url(../img/right-arrow.png) no-repeat right 10px top 50%;
+}
+.ct-a span{
+    font-size: 31px;
+    float: right;
+    margin-top: -10px;
+    color: grey;
+    font-weight: 200;
+}
+.c-title img{
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+.c-list1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 0 15px 10px;
+}
+.c-list1{
+    display: flex;
+}
+.cl-left{
+    flex:1;
+}
+.cl-left a:hover{
+    text-decoration: underline;
+}
+.cl-right{
+    flex:1;
+}
+.cl-right a:hover{
+    text-decoration: underline;
+}
+.lnm-top img{
+    width: 758px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.ln-right{
+    position:relative;
+    flex:4;
+}
+.lnr-right{
+    position: absolute;
+    width: 200px;
+    height: 320px;
+    top: 0;
+    right: 0;
+    /*background: pink;*/
+}
+.lnrr-top{
+    width: 200px;
+    list-style: none;
+    height: 35px;
+    margin-top: 2px;
+}
+.lnrrt-box{
+    width: 64px;
+    height: 35px;
+    float: left;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+}
+.lnrrt-box a{
+    text-decoration: none;
+    color: #555;
+}
+.lnrrt-box a:hover{
+    text-decoration: underline;
+}
+.lnrr-middle{
+    list-style: none;
+    width: 197px;
+    height: 186px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-left: none;
+}
+.lnrr-middle li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    /*border-right: 1px solid #ddd;*/
+    border-top: 1px solid #f4f4f4;
+}
+.lnrr-middle li a{
+    color: #0c9965;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.lnrr-middle li:hover{
+    background:#249d70;
+    cursor: pointer;/*即在不是a标签的地方也能显示触手标志*/
+}
+.lnrr-middle li:hover a{
+    color:white;
+}
+.lnrr-down{
+    width: 196px;
+    height: 78px;
+    margin-top: 5px;
+    /*padding: 9px 10px;*/
+    border: 1px solid #ddd;
+    border-left: none;
+    background-color: #fff;
+    font-family: SimSun;
+}
+#lnrrd-h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #484848;
+    font-family: "Microsoft YaHei";
+    padding: 10px 0 0 10px;
+}
+.lnrrd-content{
+    list-style: none;
+    font-size: 12px;
+}
+.lnrrd-content li a{
+    text-decoration: none;
+    color: #666;
+}
+.lnrrd-content li a:hover{
+    text-decoration: underline;
+}
+.lnrrd-content li{
+    padding: 5px 0 0 10px;
+}
+#lnrrd-a{
+    text-decoration: none;
+    color: #ca3c24;
+}
+.lnm-down{
+    position: relative;
+    height: 50px;
+    border-bottom: 2px solid #0c9965;
+}
+.lnm-down .lnmd-nav h3{
+    height: 50px;
+    width: 77px;
+    padding: 0 25px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #0c9965;
+}
+.lnm-down .lnmd-nav ul{
+    position: absolute;
+    left: 127px;
+    top: 0;
+    display: inline-block;
+    height: 50px;
+    width: 770px;
+    padding: 0 25px;
+    line-height: 50px;
+    font-size: 15px;
+    color: #0c9965;
+}
+.lnm-down .lnmd-nav ul li{
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    display: inline-block;
+}
+.lnm-down .lnmd-nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #929292;
+    line-height: 50px;
+}
+.lnmd-nav ul li a:hover{
+    text-decoration: underline;
+}
+.lnmd-ad ul{
+    padding-left: 0;
+    /* float: left; */
+    list-style: none;
+    display: inline-block;
+    width: 960px;
+}
+.lnmd-ad ul li{
+    float: left;
+    width: 188px;
+    height: 254px;
+    border-right: 1px solid #ddd;
+    margin-top: 2px;
+}
+.img1{
+    width: 176px;
+    height: 178px;
+    padding: 8px;
+}
+#img4{
+    width: 178px;
+    border-right:none;
+}
+.lnmd-ad a{
+    text-decoration: none;
+    display: block;
+    width: 185px;
+    height: 268px;
+}
+.divide1:hover{
+    border-right:1px solid #0c9965;
+    border-bottom:1px solid #0c9965;
+}
+.divide2:hover{
+    border:1px solid #0c9965;
+    border-top:none;
+}
+.lnmd-ad h3{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 15px;
+    color:#4c4c4c;
+}
+.cf1-pic1{
+    padding: 15px 0 0 0;
+}
+.cf-nav h3{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    line-height: 50px;
+}
+.cf-nav{
+    position: relative;
+    height: 45px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #1a1a1a;
+}
+.cf-nav .icon.icon-logo{
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-position: -5px -298px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+    height: 40px;
+}
+.cf-nav ul{
+    height: 50px;
+    position: absolute;
+    left: 185px;
+    top: 0;
+}
+.cf-nav ul li{
+    list-style: none;
+    float: left;
+    font-size: 13px;
+    margin-right:20px;
+}
+.cf-nav ul li a{
+    text-decoration: none;
+    color:#929292;
+}
+.cf-nav ul li a:hover{
+    text-decoration: underline;
+}
+#cfn-ul{
+    height: 50px;
+    position: absolute;
+    left: 230px;
+    top: 0;
+}
+.cf-logo{
+    width: 760px;
+    /*background: pink;*/
+    display: flex;
+}
+.logos-list1{
+    flex:1;
+}
+.logos-list1 a{
+    display: block;
+    width: 188px;
+    height: 68px;
+    border: 1px solid #dbdbdb;
+}
+.logos-list1 a img{
+    width: 188px;
+    height: 68px;
+}
+.cf-content{
+    position: relative;
+    height: 281px;
+}
+.cfc-content{
+    position: absolute;
+    left: 760px;
+    top: 0;
+    width: 230px;
+    height: 278px;
+    border: 1px solid #dbdbdb;
+    border-left:none;
+}
+.cfc-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: SimSun;
+}
+.cfc-title h4{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.cfc-title a{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Simsun;
+}
+.cfc-content ul{
+    list-style: none;
+    font-size: 13px;
+    font-family: SimSun;
+    padding: 0 20px;
+}
+.cfc-content ul li{
+    margin: 0 0 8px 0;
+}
+.cfc-content ul li a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size:12px;
+}
+.cfc-content ul li a:hover{
+    text-decoration: underline;
+}
+.cfc-ad{
+    position: absolute;
+    width: 208px;
+    height: 278px;
+    right: 0;
+    top: 0;
+    border: 1px solid #dbdbdb;
+    border-left: none;
+}
+.cfc-ad img{
+    width: 200px;
+    height: 275px;
+}
+.c-news{
+    display: flex;
+}
+.news-listBottom{
+    flex:1;
+    padding-top: 10px;
+    width: 420px;
+}
+#nl1{
+    margin-right: 10px;
+}
+#nl2{
+    margin-left:10px;
+}
+.cn-title h4{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0c9965;
+    border-bottom: 2px solid #0c9965;
+    line-height: 28px;
+    padding: 0 15px 0 5px;
+    margin: 0;
+}
+.news-listBottom ul{
+    padding: 8px 16px 12px 20px;
+    font-family: SimSun;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    background-color: #fff;
+}
+.news-listBottom ul li{
+    list-style: none;
+}
+.news-listBottom ul li::before{
+    content: "\00b7";
+    margin-left: -15px;
+    color: #b4b5b4;
+    font-size: 14px;
+}
+.news-listBottom ul li a{
+    color: #4c4c4c;
+    line-height: 24px;
+}
+.cn-title{
+    position: relative;
+}
+.cn-title a{
+     position: absolute;
+     right: 30px;
+     top: 10px;
+     color: #999;
+     font-family: SimSun;
+     float: right;
+     font-size: 12px;
+     font-weight: normal;
+    text-decoration: none;
+ }
+.cn-title a:hover{
+    text-decoration: underline;
+}
+.news-listBottom ul li a {
+    color: #4c4c4c;
+    line-height: 24px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.news-listBottom ul li a:hover {
+    color:#0c9965;
+}
+.news-listBottom ul li a span{
+    float: right;
+}

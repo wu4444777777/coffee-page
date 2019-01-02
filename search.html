@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>普天药械</title>
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/searchInput.css">
+</head>
+<body>
+<div class="header">
+    <div class="tnt-nav">
+        <div class="wrapper">
+            <div class="tnn-left">
+                <a href="#" class="tnnl-word">网站地图</a>
+                <a href="#" class="tnnl-word">设为首页</a>
+                <a href="#" class="tnnl-word2">收藏本站</a>
+            </div>
+            <div class="tnn-right">
+                <a href="#" id="qqcontact"><img src="img/qq.jpg" alt=""></a>
+            </div>
+            <div class="tnn-middle">
+                <a href="medicalIndex.html" class="tnnl-word">你好</a>
+                <a href="login.html" class="tnnl-word2">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="tnm-nav">
+        <div class="wrapper">
+            <div class="tn-logo">
+                <a href=""><img src="img/logo (1).png" alt=""></a>
+            </div>
+            <div class="tn-midSearch">
+                <input type="text" placeholder="请输入药品名称/器械名称/拼音码">
+                <button>搜索</button>
+                <div class="keywords">
+                    <a href="#" class="sameColor">消化管疾病药</a>
+                    <a href="#" id="difColor">内分泌腺用药</a>
+                    <a href="#" class="sameColor">鼻科类用药</a>
+                </div>
+            </div>
+            <div class="tn-right">
+                <div class="tnr-call">
+                    <div class="tnrc-way">
+                        <span class="icon icon-phone"></span>客服热线
+                    </div>
+                    <div class="tnrc-way">4000-678-567</div>
+                </div>
+                <div class="tnr-shop">
+                    <button class="tnrs-a" onclick="add()">
+                        <span class="icon icon-car"></span>购物车<span id="special">0</span>件
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tnd-nav">
+        <div class="wrapper">
+            <div class="tndn-nav">
+                <div class="tndn-left">
+                    <div class="tndnl-title">全部商品分类</div>
+                </div>
+                <div class="tndn-middle">
+                    <div class="tndnn-nav">
+                        <a href="#">采购直通</a>
+                        <a href="#">医药</a>
+                        <a href="#">医疗器械</a>
+                        <a href="#">竞价采购</a>
+                        <a href="#">客服中心</a>
+                    </div>
+                </div>
+                <div class="tndn-right">
+                    <div class="entrance">
+                        <div class="e-box">
+                            <span class="icon icon-buy"></span>
+                            <a class="entrance-left" href="#">我是采购商</a>
+                        </div>
+                    </div>
+                    <div class="entrance">
+                        <div class="e-box">
+                            <span class="icon icon-supply"></span>
+                            <a class="entrance-right" href="#">供应商入口</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="wrapper">
+        <div class="c-left">
+            <div class="ln-left">
+                <div class="westMedic">
+                    <div class="c-title">
+                        <a class="ct-a" href="#">
+                            <img src="img/pill.png" alt="">西药
+                        </a>
+                        <div class="c-list1">
+                            <div class="cl-left">
+                                <a href="#">解热镇痛</a>
+                                <a href="#">消化系统</a>
+                                <a href="#">血液系统</a>
+                                <a href="#">抗肿瘤药</a>
+                                <a href="#">抗生素</a>
+                            </div>
+                            <div class="cl-right">
+                                <a href="#">非抗生素</a>
+                                <a href="#">抗寄生虫</a>
+                                <a href="#">泌尿系统</a>
+                                <a href="#">神经系统用药</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chnMedic">
+                    <div class="c-title">
+                        <a class="ct-a" href="#">
+                            <img src="img/bowl.png" alt="">中药
+                        </a>
+                        <div class="c-list1">
+                            <div class="cl-left">
+                                <a href="#">中医药</a>
+                            </div>
+                            <div class="cl-right">
+                                <a href="#">中药饮片</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="medUse">
+                    <div class="c-title">
+                        <a class="ct-a" href="#">
+                            <img src="img/stethophone.png" alt="">医用耗材
+                        </a>
+                        <div class="c-list1">
+                            <div class="cl-left">
+                                <a href="#">注射器刷</a>
+                                <a href="#">上海无影灯泡</a>
+                                <a href="#">医用棉签</a>
+                                <a href="#">医用妇科棉签</a>
+                            </div>
+                            <div class="cl-right">
+                                <a href="#">广口瓶</a>
+                                <a href="#">止血胶管</a>
+                                <a href="#">医用缝合针</a>
+                                <a href="#">体温计</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="medEquiv">
+                    <div class="c-title">
+                        <a class="ct-a" href="#">
+                            <img src="img/machine.png" alt="">医疗器械
+                        </a>
+                        <div class="c-list1">
+                            <div class="cl-left">
+                                <a href="#">基础外科手术器械</a>
+                                <a href="#">神经外科脑内用刀</a>
+                                <a href="#">母婴检测仪</a>
+                                <a href="#">呼吸道用具</a>
+                            </div>
+                            <div class="cl-right">
+                                <a href="#">显微外科用刀</a>
+                                <a href="#">检测器材</a>
+                                <a href="#">康复理疗仪</a>
+                                <a href="#">辅助理疗</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-right">
+                <div class="crp-list">
+                    <div class="crp-title">
+                        <h4>全部结果></h4>
+                    </div>
+                    <div class="crp-brand">
+                        <p>品牌：</p>
+                        <div class="b-list">
+                            <a href="#">同仁堂</a>
+                            <a href="#">李兆基</a>
+                            <a href="#">999</a>
+                            <a href="#">白云山</a>
+                            <a href="#">贝之佳</a>
+                        </div>
+                    </div>
+                    <div class="crp-nav">
+                        <a href="#">综合排序</a>
+                        <a href="#">销量</a>
+                        <a href="#">信用</a>
+                        <a href="#">价格
+                            <span class="tip1"></span>
+                            <span class="tip2"></span>
+                        </a>
+                    </div>
+                    <div class="crp-product" id="crp-product">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="star"></span>新手入门
+                </div>
+                <ul>
+                    <li><a href="#">会员注册</a></li>
+                    <li><a href="#">密码找回</a></li>
+                    <li><a href="#">资料下载</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="flag"></span>买方帮助
+                </div>
+                <ul>
+                    <li><a href="#">商品查找</a></li>
+                    <li><a href="#">下单流程</a></li>
+                    <li><a href="#">货款支付</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="round"></span>卖方帮助
+                </div>
+                <ul>
+                    <li><a href="#">交易信息发布</a></li>
+                    <li><a href="#">合同受理</a></li>
+                    <li><a href="#">货款结算</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="case"></span>交易管理
+                </div>
+                <ul>
+                    <li><a href="#">会员入住规则</a></li>
+                    <li><a href="#">在线交易规则</a></li>
+                    <li><a href="#">在线结算规则</a></li>
+                </ul>
+            </div>
+            <div class="f-list">
+                <div class="f-title">
+                    <span class="lock"></span>网站信息
+                </div>
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">法律声明</a></li>
+                    <li><a href="#">网站电话</a></li>
+                </ul>
+            </div>
+            <div class="f-listNav">
+                <div class="f-tele">
+                    <span class="phone"></span>客服电话：<span class="call">4000-678-567</span>
+                </div>
+                <div class="f-mail">
+                    <span class="mail"></span>服务邮箱：service@ptyxjy.cn
+                </div>
+            </div>
+            <div class="f-copyright">
+                <p>Copyright  2014 福建莆田电商投资管理股份有限公司  闽ICP备14018699号-1   ©版权所有</p>
+                <p>
+                    <a href="#">互联网药品信息服务资格证书 （闽）-非经营性-2014-0018</a>
+                    <a href="#">增值电信业务经营许可证 闽B1-20140006</a>
+                </p>
+                <p>普天药械交易网由福建莆田电商投资管理股份有限公司独家运营</p>
+                <p>公司地址：福建省莆田市荔城区黄石镇七境村1#楼108室</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.suggestion.js"></script>
+<script src="js/searchInput.js"></script>
+<script type="text/javascript" src="js/searchCart.js"></script>
+</body>
+</html>

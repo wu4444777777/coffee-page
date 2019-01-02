@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>普天药械</title>
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+
+</head>
+<body>
+<div class="header">
+    <div class="h-1"><a href="medicalIndex.html"><img src="img/logo.png" alt=""></a></div>
+    <div class="h-2">
+        <img  class="h-4" src="img/telephone.svg" alt="">
+        <span class="h-3">客服热线 4000-678-567</span>
+    </div>
+</div>
+<div class="center">
+    <div class="c-up">
+        <div class="c-up-1" id="s-choose">
+            <a href="#buyer" class="active">我是采购商</a></span>
+            <a href="#provider" class="">我是供应商</a></span>
+        </div>
+        <div class="c-up-2">
+            <span>我有账号，</span>
+            <a href="#">登陆系统</a>
+        </div>
+    </div>
+    <div class="c-down">
+    <div class="forms" id="forms">
+        <form id="buyer" class="">
+            <section class="c-down-1">
+                <div class="c-1">账户信息</div>
+                <div class="c-2">
+                    <labal for="username"><span>*</span>&nbsp用户名:</labal>
+                    <input type="text" name="username" id="username">
+                    <span id="btn"></span>
+                 </div>
+                <div class="c-3">
+                    <labal for="password"><span>*</span>&nbsp密码:</labal>
+                    <input type="password" name="password" id="password">
+                    <span id="span"></span>
+                </div>
+                <div class="c-4">
+                    <labal for="passwordConfirm"><span>*</span>&nbsp确认密码:</labal>
+                    <input type="password" name="passwordConfirm" id="passwordConfirm">
+                    <span id="btn-mm"></span>
+                </div>
+            </section>
+            <section class="c-down-1">
+                <div class="c-1">联系人信息</div>
+                <div class="c-2">
+                    <labal for="contact-name"><span>*</span>&nbsp联系人姓名:</labal>
+                    <input type="text" name="contact-name">
+                </div>
+                <div class="c-3">
+                    <labal for="telephone"><span>*</span>&nbsp固定电话:</labal>
+                    <input type="text" name="telephone" id="telephone">
+                </div>
+                <div class="c-4">
+                    <labal for="cellphone"><span>*</span>&nbsp手机:</labal>
+                    <input type="text" name="cellphone" id="cellphone">
+                    <span id="btn-cc"></span>
+                </div>
+            </section>
+            <section class="c-down-1">
+                <div class="c-1">机构信息</div>
+                <div class="c-2">
+                    <labal for="mold"><span>*</span>&nbsp机构类型:</labal>
+                    <select name="mold" id="" class="c-2-1">
+                        <option>药房（药店）、医疗器械经营企业营利性机构</option>
+                        <option>药房（药店）、医疗器械经营企业营利性机构</option>
+                        <option>药房（药店）、医疗器械经营企业营利性机构</option>
+                    </select>
+                </div>
+                <div class="c-3">
+                    <labal for="organization"><span>*</span>&nbsp机构名称:</labal>
+                    <input type="text" name="organization">
+                </div>
+                <div class="c-4">
+                    <labal for="address"><span>*</span>&nbsp机构地址:</labal>
+                    <input type="text" name="address">
+                </div>
+            </section>
+            <section class="c-down-2">
+                <div class="c-1">证件上传</div>
+                <div class="c-down-div">
+                    <div class="c-down-3">
+                        <div class="m-m"></div>
+                        <span class="m-m-4">药品/医疗器械经营许可证</span>
+                    </div>
+                    <div class="c-down-3">
+                        <div class="m-m"></div>
+                        <span class="m-m-3">联系人身份证复印件<span class="m-m-1">(正面）</span></span>
+                        <div class="m-m-2">如非法定代表人，则须提供非法定代表人授权委托书</div>
+                    </div>
+                    <div class="c-down-3">
+                        <div class="m-m"></div>
+                        <span class="m-m-3">联系人身份证复印件<span class="m-m-1">（背面）</span></span>
+                    </div>
+                </div>
+            </section>
+            <section class="c-down-5">
+                <input class="c-5-1" type="button" value="立即注册" name="" onclick="check()">
+                <laber for="checkbox" class="c-5-2">
+                    <input type="checkbox" name="checkbox">
+                    我已阅读并同意
+                    <a href="#">《普天药械交易网用户入驻协议》</a>
+                </laber>
+            </section>
+        </form>
+        <form id="provider" class="c-down-p">
+            <section class="c-down-1">
+                <div class="c-1">账户信息</div>
+                <div class="c-2">
+                    <labal for="username"><span>*</span>&nbsp用户名:</labal>
+                    <input type="text" name="username" id="username1">
+                    <span id="btn1"></span>
+                </div>
+                <div class="c-3">
+                    <labal for="password"><span>*</span>&nbsp密码:</labal>
+                    <input type="password" name="password" id="password1">
+                    <span id="span1"></span>
+                </div>
+                <div class="c-4">
+                    <labal for="passwordConfirm"><span>*</span>&nbsp确认密码:</labal>
+                    <input type="password" name="passwordConfirm" id="passwordConfirm1">
+                    <span id="btn-mm1"></span>
+                </div>
+            </section>
+            <section class="c-down-1">
+                <div class="c-1">联系人信息</div>
+                <div class="c-2">
+                    <labal for="contact-name"><span>*</span>&nbsp联系人姓名:</labal>
+                    <input type="text" name="contact-name">
+                </div>
+                <div class="c-3">
+                    <labal for="telephone"><span>*</span>&nbsp固定电话:</labal>
+                    <input type="text" name="telephone" id="telephone1">
+                </div>
+                <div class="c-4">
+                    <labal for="cellphone"><span>*</span>&nbsp手机:</labal>
+                    <input type="text" name="cellphone" id="cellphone1">
+                    <span id="btn-cc1"></span>
+                </div>
+            </section>
+            <section class="c-down-1">
+                <div class="c-1">机构信息</div>
+                <div class="c-2">
+                    <labal for="mold"><span>*</span>&nbsp机构类型:</labal>
+                    <select name="mold" class="c-2-1">
+                        <option>药房（药店）、医疗器械经营企业营利性机构</option>
+                        <option>药房（药店）、医疗器械经营企业营利性机构</option>
+                        <option>药房（药店）、医疗器械经营企业营利性机构</option>
+                    </select>
+                </div>
+                <div class="c-3">
+                    <labal for="organization"><span>*</span>&nbsp机构名称:</labal>
+                    <input type="text" name="organization">
+                </div>
+                <div class="c-4">
+                    <labal for="address"><span>*</span>&nbsp机构地址:</labal>
+                    <input type="text" name="address">
+                </div>
+            </section>
+            <section class="c-down-2">
+                <div class="c-1">证件上传</div>
+                <div class="c-down-div">
+                    <div class="c-down-3">
+                        <div class="m-m"></div>
+                        <span class="m-m-4">药品/医疗器械经营许可证</span>
+                    </div>
+                    <div class="c-down-3">
+                        <div class="m-m"></div>
+                        <span class="m-m-3">联系人身份证复印件<span class="m-m-1">(正面）</span></span>
+                        <div class="m-m-2">如非法定代表人，则须提供非法定代表人授权委托书</div>
+                    </div>
+                    <div class="c-down-3">
+                        <div class="m-m"></div>
+                        <span class="m-m-3">联系人身份证复印件<span class="m-m-1">（背面）</span></span>
+                    </div>
+                </div>
+            </section>
+            <section class="c-down-5">
+                <input class="c-5-1" type="button" value="立即注册" name="" onclick="check1()">
+                <laber for="checkbox" class="c-5-2">
+                    <input type="checkbox" name="checkbox">
+                    我已阅读并同意
+                    <a href="#">《普天药械交易网用户入驻协议》</a>
+                </laber>
+            </section>
+        </form>
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <p>Copyright 2014 福建莆田电商投资管理股份有限公司 闽ICP备14018699号-1 ©版权所有</p>
+    <p>
+        <a href="#">互联网药品信息服务资格证书 （闽）-非经营性-2014-0018</a>
+        <a href="#">&nbsp&nbsp&nbsp增值电信业务经营许可证 闽B1-20140006</a>
+    </p>
+    <p>莆田药械交易网由福建莆田电商投资管理股份有限公司独家运营</p>
+    <p>公司地址：福建省莆田市荔城区黄石镇七境村1#楼108室</p>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

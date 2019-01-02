@@ -1,0 +1,70 @@
+#slider{
+    width: 758px;
+    height: 320px;
+    /*border: 1px solid #000;*/
+    overflow: hidden;
+    position: relative;
+}
+#list{
+    width: 5306px;
+    height: 320px;
+    position: absolute;
+    z-index: 1;
+}
+#list img{
+    float: left;
+    width: 758px;
+    height: 320px;
+}
+#buttons{
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    z-index: 2;
+    bottom: 20px;
+    right:0;
+}
+#buttons span{
+    cursor: pointer;
+    float: left;
+    width: 22px;
+    height: 22px;
+    border-radius:50%;
+    background: #999;
+    margin-right: 5px;
+    text-align: center;
+    color:white;
+    font-size:12px;
+    line-height: 22px;
+}
+#buttons .on{
+    background: #ffa620;
+}
+.arrow{
+    cursor: pointer;
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    font-size:36px;
+    font-weight: bold;
+    width: 30px;
+    height: 45px;
+    position: absolute;
+    z-index: 2;
+    top: 145px;
+    background:RGBA(0,0,0,0.3);
+    color:#fff;
+    text-decoration: none;
+}
+.arrow:hover{
+    background: RGBA(0,0,0,0.7);
+}
+#slider:hover .arrow{
+    display: block;
+}
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
